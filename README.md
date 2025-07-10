@@ -95,7 +95,7 @@ The bot will start polling Telegram for new messages. Any errors will be logged 
 
 This bot can be easily deployed on cloud platforms that support continuous "Background Workers" or "Always-on" tasks, such as:
 
-  * **Render:** Ideal for hosting a `Background Worker` (polling bot) with a generous free tier.
+  * **Render:** Ideal for hosting a `Background Worker` (polling bot).
   * **PythonAnywhere:** A great option for small Python projects. The free tier might have limitations requiring periodic manual restarts or an upgrade for continuous operation.
   * **Other VPS/Cloud Providers:** You can deploy it on any virtual private server (e.g., DigitalOcean, AWS EC2, Google Cloud VM) using `systemd` or `screen` for background execution.
 
